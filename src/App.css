@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  cursor: url("./images/FL\ studiocursor.cur"), auto;
+  background-color: #37393f;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.card {
+  box-shadow: 80;
+  border-radius: 70;
+  height: 800;
+  width: 300;
+}
+
+.card-header {
+  text-align: left;
+}
+
+.profile1 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 1px 1px 90px #2f2a2a, -1px -1px 10px #080808;
+  margin-bottom: 30%;
+}
+.hidden {
+  display: none;
+}
+
+.btn-dark {
+  height: 50px;
+  width: 70px;
+  margin-top: -1rem;
+}
+
+#text-sample {
+  position: absolute;
+  height: 30rem;
+  width: 30rem;
+  top: 39%;
+  bottom: auto;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  margin-left: -40px;
+  margin-right: 10px;
+  text-align: center;
+  text-size-adjust: auto;
+  background-color: rgb(48, 45, 45);
+
+  padding: 6rem;
+  border-radius: 20px;
+  box-shadow: 0 3rem 5rem rgba(8, 2, 2, 0.3);
+  z-index: 10;
+}
+
+.resize {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+.close-modal {
+  justify-content: right;
+  position: relative;
+  margin-left: 19rem;
+  margin-top: -20rem;
+  margin-bottom: -30rem;
+  font-size: 250%;
+  background: none;
+  border: none;
+  color: white;
+}
+.close-button {
+  margin-top: -4rem;
+  margin-right: -6rem;
+}
+
+.main-name {
+  text-align: left;
+  margin-left: -4rem;
+  margin-right: -2rem;
+  margin-top: -2rem;
+}
+
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+.instalogo {
+  background-blend-mode: normal;
+  z-index: 2;
+  height: 3.5rem;
+
+  margin-top: -30%;
+  margin-left: -30%;
+}
+
+.twitterlogo {
+  background-blend-mode: normal;
+  /* z-index: 2; */
+  height: 3.5rem;
+  
+  margin-top: -19vh;
+  margin-left: 10vh;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hereare {
+  font-style: bold;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  display: flex;
+  
+  background-color: #3e4968;
+  height: auto;
+  width: 18rem;
+  justify-content: center;
+  margin: auto;
+  align-content: center;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.footer{
+  height: 40vh;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media (max-width: 1200px) { 
+  
+}
